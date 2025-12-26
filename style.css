@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family:cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h4, h5, h6 {
+    color: #000000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin: 8px;
+    padding: 10px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.517);
+    padding: 15px;
+    margin: 15px auto;
+    width: 60%;
+}
+
+.skills li {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center; /* text in the middle */ 
+}
+
+.skills i {
+    font-size: 24px;
+    color: #333; /* icon color */
+    transition: color 0.3s;
+    
+}
+
+.skills li:hover i {
+    color: #000; /* icon color on hover*/
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;           /* breathing room */
+    margin: 15px auto;
+    width: 60%;
+    max-width: 600px;        /* keeps it narrow on large screens */
+    text-align: center;        /* fixes alignment of contact details */
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.contact p {
+    display: flex;           /* puts text in one line */
+    justify-content: center; /* centers the whole line */
+    gap: 8px;                /* space between label & link */
+    margin: 8px 0;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+img.rounded-4{
+    border-radius: 18px;
+}
